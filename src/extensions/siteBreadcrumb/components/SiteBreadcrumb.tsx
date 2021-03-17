@@ -59,12 +59,17 @@ export default class SiteBreadcrumb extends React.Component<ISiteBreadcrumbProps
       this._getParentWeb(this.props.context.pageContext.web.absoluteUrl);
     }
     const rootUrl = window.location.href;
-   // console.log(rootUrl); 
     const route = rootUrl.replace(this.props.context.pageContext.web.absoluteUrl, "");
    // console.log(route,this.props.context.pageContext.web.absoluteUrl);
     const segments = route.split("/");
-    segments.splice(segments.length -1);
-    const title = segments.map(url => decodeURIComponent(url)).join(" > ");
+    let subRoute = '';
+    // segments.splice(segments.length -1);
+    if (/\.aspx/.test(segments[segments.length - 1])) {
+      subRoute = segments[segments.length - 1].split('.aspx')[0];
+      segments.splice(segments.length - 1);
+    }
+    segments.push(subRoute);
+    const title = segments.filter(s=>Boolean(s)&&['SitePages','AllItems'].indexOf(s) === -1).map(url => decodeURIComponent(url)).join(" > ");
     //added new dummy navigation item
     this._linkItems.push({
       text:  title,//this.props.context.pageContext.web.title,

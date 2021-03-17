@@ -908,7 +908,8 @@ var MANIFESTS_ARRAY = [
         },
         "siteBreadcrumbStrings": {
           "defaultPath": "lib/extensions/siteBreadcrumb/loc/en-us.js",
-          "type": "localizedPath"
+          "type": "localizedPath",
+          "paths": {}
         },
         "@microsoft/sp-application-base": {
           "type": "component",
