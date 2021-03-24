@@ -1,7 +1,14 @@
 @import '~office-ui-fabric-react/dist/sass/References.scss';
+
+div[class^="headerRow"] {
+  margin-bottom: 30px;
+}
 .breadcrumb {
   >div {
-    padding-left: 5px;
+    padding-left: 25px;
+    top: 100px;
+    z-index: 10;
+    position: absolute;
   }
   .msBgColorThemePrimary{
   //  background-color: "[theme:themePrimary, default:#27384A]";
