@@ -1,5 +1,4 @@
 ---
-page_type: sample
 products:
 - office-sp
 languages:
@@ -19,31 +18,18 @@ extensions:
 
 This sample shows how to create a breadcrumb element and append it to your site via the SharePoint Framework Application Customizer extension.
 
-![Breadcrumb sample](./assets/breadcrumb-sample.png)
+## Used SharePoint Framework Version v1.11.0
 
-## Used SharePoint Framework Version
 
-![SPFx 1.11](https://img.shields.io/badge/version-1.11.0-green.svg)
 
-## Applies to
-
-* [SharePoint Framework](http://dev.office.com/sharepoint/docs/spfx/sharepoint-framework-overview)
-* [Office 365 developer tenant](http://dev.office.com/sharepoint/docs/spfx/set-up-your-developer-tenant)
 
 ## Solution
 
 Solution|Author(s)
 --------|---------
+React-application-breadcrumb | Hanh Duong (CEO,(https://htdsharepointsoftwarellc.com))
 React-application-breadcrumb | Elio Struyf (MVP, U2U, [@eliostruyf](https://twitter.com/eliostruyf))
 React-application-breadcrumb | Swaminathan Sriram ([@SwaminathanSri3](https://twitter.com/SwaminathanSri3)) -- Upgrade to SPFx 1.11
-
-## Version history
-
-Version|Date|Comments
--------|----|--------
-2.0|October 3, 2020|Updated to SPFx v1.11
-1.1|August 31, 2017|Updates for v1.2.0
-1.0|August 9, 2017|Initial release
 
 ## Disclaimer
 
