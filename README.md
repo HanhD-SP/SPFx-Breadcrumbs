@@ -19,7 +19,7 @@ extensions:
 This shows how to create a breadcrumb element and append it to your site via the SharePoint Framework Application Customizer extension.
 
 ## Used SharePoint Framework Version v1.11.0
-<img width="1083" height="548" alt="image" src="https://github.com/user-attachments/assets/410cf06b-df99-49dc-9f6f-3d6670a2f378" />
+<img width="1076" height="571" alt="image" src="https://github.com/user-attachments/assets/0285ed6b-89d1-4f6c-92ae-e13c1c3ff049" />
 <img width="687" height="406" alt="image" src="https://github.com/user-attachments/assets/999b1da8-47ee-4512-839b-a9c8a7b1b7b8" />
 
 ## Solution
