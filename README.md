@@ -1,4 +1,4 @@
-# Breadcrumb Application Customizer
+# Breadcrumbs Application Customizer
 
 ## Summary
 
