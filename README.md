@@ -29,7 +29,8 @@ React-application-breadcrumb | Swaminathan Sriram ([@SwaminathanSri3](https://tw
 - Move to folder where this readme exists
 - In the command window run:
   - `npm install`
-  - `gulp serve --nobrowser` 
+  - `gulp serve --nobrowser`
+  - If there are any dependency issues, install the CLI for Microsoft 365 (https://pnp.github.io/cli-microsoft365), log in, and run the command "m365 spfx doctor" (without the quotes). Then follow the instructions to upgrade or downgrade dependency packages.
 - Open your SharePoint developer site and append the provided query string parameters from the command output
 
 > If you want, you can also test bundle and package it. The necessary feature configuration has already been done.
